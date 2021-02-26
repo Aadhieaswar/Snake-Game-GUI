@@ -14,7 +14,7 @@
 - `assets`: this directory consists of all the images required for the game
 
 ### Game Features
-- Basic python game with desktop GUI where the goal is to collect the food pieces and each collected piece of food increase the length of the snake progressively increasing the difficulty of the game
+###### Basic python game with desktop GUI where the goal is to collect the food pieces and each collected piece of food increase the length of the snake progressively increasing the difficulty of the game
 
 ### Credits
 - Implemented by __Aadhieaswar Senthil Kumar__
