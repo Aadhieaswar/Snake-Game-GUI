@@ -56,10 +56,10 @@ class SnakeApp(tk.Canvas):
 
     def load_assets(self):
         try:
-            self.snake_body_img = Image.open("./Images/Snake.png")
+            self.snake_body_img = Image.open("./assets/Snake.png")
             self.snake_body = ImageTk.PhotoImage(self.snake_body_img)
 
-            self.food_img = Image.open("./Images/Food.png")
+            self.food_img = Image.open("./assets/Food.png")
             self.food = ImageTk.PhotoImage(self.food_img)
         except IOError as error:
             print(error)
